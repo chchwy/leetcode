@@ -1,5 +1,5 @@
 /**
- * @brief 1. Two Sum
+ * @brief 1 Two Sum
  * @author http://chchwy.github.io
  * @param {number[]} nums
  * @param {number} target
