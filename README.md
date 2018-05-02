@@ -1,3 +1,3 @@
-# LeetCode-chchwy
+# Leet Code by chchwy
 
 My leetcode solutions
