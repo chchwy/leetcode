@@ -6,6 +6,7 @@
  *     TreeNode *right;
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
+ * 找出二元樹的高度 
  */
 class Solution {
 public:
