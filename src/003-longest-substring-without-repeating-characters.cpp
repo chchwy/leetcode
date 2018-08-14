@@ -15,10 +15,9 @@ public:
     {
         // start to end 表示目前檢查的字串區間
         int start = 0, end = 1;
-
-        // countMap 則是
+        // 目前區間內的字母是否出現
         std::vector<int> countMap(256);
-        
+
         if (s.size() == 0) { return 0; }
         if (s.size() == 1) { return 1; }
         
@@ -33,10 +32,10 @@ public:
                 {
                     if (s[i] == s[end])
                     {
-                        start = i + 1;   
+                        start = i + 1;
                         break;
                     }
-                    countMap[ s[i] ] = 0;    
+                    countMap[ s[i] ] = 0;
                 }
             }
             else
