@@ -6,47 +6,41 @@ Given "bbbbb", the answer is "b", with the length of 1.
 Given "pwwkew", the answer is "wke", with the length of 3.
 Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 */
+#include <iostream>
 #include <vector>
 #include <string>
+
+int max(int a, int b) {
+    return (a > b) ? a : b;
+}
 
 class Solution {
 public:
     int lengthOfLongestSubstring(std::string s)
     {
-        // start to end 表示目前檢查的字串區間
-        int start = 0, end = 1;
-        // 目前區間內的字母是否出現
-        std::vector<int> countMap(256);
+        std::vector<int> dict(256, -1); // dict: 該字母上次出現的位置
+        int maxLen = 0;
+        int start = -1;
 
-        if (s.size() == 0) { return 0; }
-        if (s.size() == 1) { return 1; }
-        
-        countMap[ s[0] ] = 1;
-        
-        int maxLen = 1;
-        while (end < s.size())
+        for (int i = 0; i != s.length(); i++)
         {
-            if (countMap[ s[end] ] > 0) // find duplicated char
-            {
-                for (int i = start; i < end; ++i)
-                {
-                    if (s[i] == s[end])
-                    {
-                        start = i + 1;
-                        break;
-                    }
-                    countMap[ s[i] ] = 0;
-                }
-            }
-            else
-            {
-                int curLen = end - start + 1;
-                maxLen = (curLen > maxLen) ? curLen : maxLen;
-                
-                countMap[ s[end] ] = 1;
-            }
-            end++;
+            char c = s[i];
+            if (dict[c] > start)
+                start = dict[c]; // start 最近一次重複字母出現的位置
+
+            dict[c] = i;
+
+            // 概念就是: 長度就是目前字母a跟上一次字母a出現地方的差
+            maxLen = max(maxLen, i - start);
         }
         return maxLen;
     }
 };
+
+#ifdef LEETCODE_003
+int main()
+{
+    Solution sln;
+    std::cout << sln.lengthOfLongestSubstring("abcabcd");
+}
+#endif
