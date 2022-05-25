@@ -6,10 +6,10 @@ My leetcode code.
 
 2022/05/25
 
-- 704 Binary Search Tree (Array, Binary Search)
-- 35 Search Insert Position (Array, Binary Search)
-- 34 Find First and Last Position of Element in Sorted Array
+- #704 Binary Search Tree (Array, Binary Search)
+- #35 Search Insert Position (Array, Binary Search)
+- #34 Find First and Last Position of Element in Sorted Array (Array, Binary Search)
 
 2022/05/24
 
-- 5 Longest Palindromic Substring (String, DP)
+- #5 Longest Palindromic Substring (String, DP)
