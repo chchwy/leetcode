@@ -4,6 +4,10 @@ My leetcode code.
 
 ## Log
 
+2022/05/26
+
+- #27 Remove Element
+
 2022/05/25
 
 - #704 Binary Search Tree (Array, Binary Search)
