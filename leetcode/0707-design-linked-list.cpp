@@ -1,5 +1,5 @@
 // 707. Design Linked List
-
+// Linked List
 
 #include <iostream>
 
@@ -106,7 +106,6 @@ void printLinkedList(MyLinkedList* list)
     }
     std::cout << std::endl;
 }
-
 
 int main()
 {
