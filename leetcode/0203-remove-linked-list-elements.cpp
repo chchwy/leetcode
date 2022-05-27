@@ -12,7 +12,7 @@ struct ListNode {
 	ListNode(int x, ListNode* next) : val(x), next(next) {}
 };
 
-class Solution {
+class Solution1 {
 public:
 	ListNode* removeElements(ListNode* head, int val) {
 
@@ -36,6 +36,29 @@ public:
 	}
 };
 
+// To eliminate the while loop of the head node by using a dummy head node
+class Solution2 {
+public:
+    ListNode* removeElements(ListNode* head, int val) {
+        ListNode dummyHead(0, head);
+
+        ListNode* node = &dummyHead;
+
+        while (node && node->next) {
+            if (node->next->val == val) {
+                ListNode* tmp = node->next;
+                node->next = node->next->next;
+                delete tmp;
+            }
+            else {
+                node = node->next;
+            }
+        }
+        head = dummyHead.next;
+        return head;
+    }
+};
+
 int main()
 {
 	//[1, 2, 6, 3, 4, 5, 6]
@@ -48,7 +71,7 @@ int main()
 	ListNode* n1 = new ListNode(2, n2);
 	ListNode* n0 = new ListNode(1, n1);
 
-	Solution s;
+	Solution2 s;
 	ListNode* head = s.removeElements(n0, 6);
 
 	int i = 0;

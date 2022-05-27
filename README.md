@@ -5,7 +5,7 @@ My leetcode code.
 ## Log
 
 2022/05/27
-- #203 Remove Linked List Elements
+- #203 Remove Linked List Elements (LinkedList) E
 
 2022/05/26
 
