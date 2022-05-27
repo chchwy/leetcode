@@ -1,4 +1,4 @@
 cmake_minimum_required(VERSION 3.10) # 設定最低版本要求
 project(HelloLeetCode)               # 專案名稱
 
-add_executable(leetcode leetcode/0203-remove-linked-list-elements.cpp)
+add_executable(leetcode "leetcode/0707-design-linked-list.cpp")
