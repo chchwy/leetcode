@@ -7,6 +7,7 @@ My leetcode code.
 2022/05/27
 - #203 Remove Linked List Elements (Linked List) E
 - #237 Delete Node in a Linked List (Linked List) E
+- #2095 Delete the Middle Node of a Linked List (Linked List, Two Pointers) M
 
 2022/05/26
 
