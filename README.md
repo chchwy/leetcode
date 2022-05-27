@@ -9,7 +9,7 @@ My leetcode code.
 - #237 Delete Node in a Linked List (Linked List) E
 - #2095 Delete the Middle Node of a Linked List (Linked List, Two Pointers) M
 - #707 Design Linked List (Linked List) M
-- #206 Reverse Linked List
+- #206 Reverse Linked List (Linked List) E
 
 2022/05/26
 
