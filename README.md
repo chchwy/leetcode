@@ -4,6 +4,9 @@ My leetcode code.
 
 ## Log
 
+2022/05/27
+- #203 Remove Linked List Elements
+
 2022/05/26
 
 - #27 Remove Element (Array, Two Pointers) E
