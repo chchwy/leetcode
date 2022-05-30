@@ -4,6 +4,10 @@ My leetcode code.
 
 ## Log
 
+2022/05/30
+- #160 Intersection of Two Linked Lists (Linked List, Two Pointers) E
+- #141 Linked List Cycle (Linked List, Two Pointers) E
+
 2022/05/27
 - #203 Remove Linked List Elements (Linked List) E
 - #237 Delete Node in a Linked List (Linked List) E
