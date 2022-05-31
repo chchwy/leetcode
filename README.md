@@ -4,6 +4,13 @@ My leetcode code.
 
 ## Log
 
+2022/05/31
+- #242 Valid Anagram (String, Hash Table) E
+- #1002 Find Common Characters (String Hash Table) E
+- #20 Valid Parentheses (String, Stack) E
+- #226 Invert Binary Tree (Binary Tree) E
+- #733 Flood Fill (Graph, BFS) E
+
 2022/05/30
 - #160 Intersection of Two Linked Lists (Linked List, Two Pointers) E
 - #141 Linked List Cycle (Linked List, Two Pointers) E
