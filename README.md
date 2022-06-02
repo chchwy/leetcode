@@ -4,6 +4,10 @@ My leetcode code.
 
 ## Log
 
+2022/06/02
+- #216 Combination Sum III (Backtracking) M
+- #17 Letter Combinations of a Phone Number (Backtracking) M
+
 2022/06/01
 - #53 Maximum Subarray (Dynamic Programming) E
 - #144 Binary Tree Preorder Traversal (Binary Tree) E
