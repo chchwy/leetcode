@@ -6,6 +6,8 @@ My leetcode code.
 
 2022/06/06
 - #232 Implement Queue using Stacks (Stack, Queue) E
+- #225 Implement Stack using Queues (Stack, Queue) E
+- #71 Simplify Path (String, Stack) M
 
 2022/06/02
 - #216 Combination Sum III (Backtracking) M
