@@ -10,7 +10,7 @@
       "cmakeCommandArgs": "",
       "buildCommandArgs": "",
       "ctestCommandArgs": "",
-      "addressSanitizerEnabled": true
+      "addressSanitizerEnabled": false
     },
     {
       "name": "x64-Release",
@@ -23,7 +23,7 @@
       "ctestCommandArgs": "",
       "inheritEnvironments": [ "msvc_x64_x64" ],
       "variables": [],
-      "addressSanitizerEnabled": true
+      "addressSanitizerEnabled": false
     }
   ]
 }
