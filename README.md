@@ -4,6 +4,9 @@ My leetcode code.
 
 ## Log
 
+2022/06/10
+- #131 Palindrome Partitioning (Backtracking, String) M
+
 2022/06/06
 - #232 Implement Queue using Stacks (Stack, Queue) E
 - #225 Implement Stack using Queues (Stack, Queue) E
