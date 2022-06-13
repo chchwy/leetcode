@@ -4,6 +4,10 @@ My leetcode code.
 
 ## Log
 
+2022/06/13
+- #125 Valid Palindrome (String) E
+- #21 Merge Two Sorted Lists (Linked List) E
+
 2022/06/10
 - #131 Palindrome Partitioning (Backtracking, String) M
 - #93 Restore IP Addresses (Backtracking, String) M
