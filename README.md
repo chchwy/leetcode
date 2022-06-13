@@ -7,6 +7,7 @@ My leetcode code.
 2022/06/13
 - #125 Valid Palindrome (String) E
 - #21 Merge Two Sorted Lists (Linked List) E
+- #110 Balanced Binary Tree (Binary Tree) E
 
 2022/06/10
 - #131 Palindrome Partitioning (Backtracking, String) M
